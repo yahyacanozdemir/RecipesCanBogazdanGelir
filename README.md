@@ -10,7 +10,8 @@
 ## Ekran Görüntüleri
     ÜRÜN DETAY SAYFASI
 ![2](https://user-images.githubusercontent.com/43846778/114446363-d34a4300-9bd9-11eb-8d4e-c5140c2448ee.jpg)
-    ANASAYFA, KATEGORİ SAYFASI, BÖLGELER SAYFASI
+     
+     ANASAYFA, KATEGORİ SAYFASI, BÖLGELER SAYFASI
 ![3](https://user-images.githubusercontent.com/43846778/114446371-d5140680-9bd9-11eb-9721-1865ae4f605d.jpg)
 
 
