@@ -1,5 +1,5 @@
 # Recipes Can Bogazdan Gelir Flutter App for Internship
-Dünyanın her yerinden yemek tarifleri...
+    Dünyanın her yerinden yemek tarifleri...
 ![entery](https://user-images.githubusercontent.com/43846778/114446354-d2191600-9bd9-11eb-920e-4dcd3c539135.jpg)
 
 
