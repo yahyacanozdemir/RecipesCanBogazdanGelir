@@ -16,11 +16,11 @@ https://drive.google.com/file/d/1ZLMqUnokUOqx7w6JEkz0b3IlUAngJ8hZ/view?usp=shari
     
       -
 
-###Uygulama Tasarımı ve Sunum Görselleri Hakkında
+### Uygulama Tasarımı ve Sunum Görselleri Hakkında
 Uygulama ismi, ara yüz tasarımı, kullanıcı deneyimi ve sunum görsellerinin tamamı tarafımca oluşturulmuştur. 
 
        -
 
-###Dikkat
+### Dikkat
 Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de çalışmak, katmanlı mimari ve state yönetimi üzerine alıştırma yapmak ve mobil programlama alanında kendimi geliştirmek için tümüyle tarafımca kodlanmış bir haftalık projedir. 
 
