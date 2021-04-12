@@ -6,86 +6,83 @@ import 'package:food_app_for_internship/constants/drawer/text_styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CustomDrawer extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Container(
-          height: MediaQuery.of(context).size.height / 2,
-          color: Colors.grey.shade800,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  SizedBox(
-                    width: 45,
-                  ),
-                  buildPartTitle(true, "Developer Information",0),
-                  IconButton(
-                    icon: Icon(
-                      Icons.close_rounded,
-                      color: Colors.grey.shade200,
+    return Container(
+      child: Column(
+        children: [
+          Container(
+            height: MediaQuery.of(context).size.height / 2,
+            color: Colors.grey.shade800,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                SizedBox(
+                  width: MediaQuery.of(context).size.height / 5,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width / 15,
                     ),
-                    onPressed: () => Navigator.pop(context),
-                  ),
-                ],
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  CircleAvatar(
-                    backgroundImage: AssetImage("assets/images/pp_ls.jpg"),
-                    radius: 55,
-                  ),
-                  buildInfoTitle("Yahya Can Özdemir", Colors.white,15),
-                  buildInfoTitle("Bursa Technical University", Colors.white,2),
-                  buildInfoTitle("Computer Science", Colors.white,2)
-                ],
-              ),
-              Column(
-                children: [
-                  buildInfoTitle("Contact Me", Colors.white, 50),
-                  SizedBox(
-                height: 10,
-              ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      
-                      buildSocialMediaIcon(
-                          FontAwesomeIcons.linkedin,
-                          Color(0xFF49659F),
-                          "https://www.linkedin.com/in/yahyacanozdemir/",
-                          false),
-                      buildSocialMediaIcon(
-                          FontAwesomeIcons.github,
-                          Color(0xFF212121),
-                          "https://github.com/yahyacanozdemir",
-                          false),
-                      buildSocialMediaIcon(
-                          FontAwesomeIcons.google, Color(0xffe06271), "", true),
-                    ],
-                  ),
-                ],
-              ),
-            ],
+                    buildPartTitle(true, "Developer Information", 0),
+                    IconButton(
+                      icon: Icon(
+                        Icons.close_rounded,
+                        color: Colors.grey.shade200,
+                      ),
+                      onPressed: () => Navigator.pop(context),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: MediaQuery.of(context).size.height / 2,
+                ),
+                CircleAvatar(
+                  backgroundImage: AssetImage("assets/images/pp_ls.jpg"),
+                  radius: 55,
+                ),
+                buildInfoTitle("Yahya Can Özdemir", Colors.white, 10),
+                buildInfoTitle("Bursa Technical University", Colors.white, 2),
+                buildInfoTitle("Computer Science", Colors.white, 2),
+                SizedBox(
+                  width: MediaQuery.of(context).size.height / 15,
+                ),
+                buildInfoTitle("Contact Me", Colors.white, 50),
+                SizedBox(
+                  width: MediaQuery.of(context).size.height / 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    buildSocialMediaIcon(
+                        FontAwesomeIcons.linkedin,
+                        Color(0xFF49659F),
+                        "https://www.linkedin.com/in/yahyacanozdemir/",
+                        false),
+                    buildSocialMediaIcon(
+                        FontAwesomeIcons.github,
+                        Color(0xFF212121),
+                        "https://github.com/yahyacanozdemir",
+                        false),
+                    buildSocialMediaIcon(
+                        FontAwesomeIcons.google, Color(0xffe06271), "", true),
+                  ],
+                ),
+              ],
+            ),
           ),
-        ),
-        Container(
-          height: MediaQuery.of(context).size.height / 2,
-          width: MediaQuery.of(context).size.width,
-          color: Colors.grey.shade300,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              buildPartTitle(false, "App Information",15),
-              Column(
-                children: [
-                  SizedBox(height: 15),
-                  Card(
+          Container(
+            height: MediaQuery.of(context).size.height / 2,
+            width: MediaQuery.of(context).size.width,
+            color: Colors.grey.shade300,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                buildPartTitle(false, "App Information", 15),
+                SizedBox(height: MediaQuery.of(context).size.height/150,),
+                Card(
                     color: Colors.grey.shade300,
                     elevation: 0,
                     shadowColor: Colors.blueAccent,
@@ -102,9 +99,7 @@ class CustomDrawer extends StatelessWidget {
                       ],
                     ),
                   ),
-                  SizedBox(height: 20),
-                ],
-              ),
+              SizedBox(height: MediaQuery.of(context).size.height/150),
               AnimatedButton(
                 onTap: () {
                   launch(mailToError.toString());
@@ -112,7 +107,7 @@ class CustomDrawer extends StatelessWidget {
                 type: PredefinedThemes.successOutline,
                 child: buildPartTitle(false, "Report Problem",0)
               ),
-              SizedBox(height: 15),
+              SizedBox(height: MediaQuery.of(context).size.height/150),
               Card(
                 elevation: 10,
                 color: Colors.grey.shade300,
@@ -127,14 +122,16 @@ class CustomDrawer extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
               ),
-            ],
+              ],
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
-  Padding buildSocialMediaIcon(IconData type, Color color, String url, bool isMail) {
+  Padding buildSocialMediaIcon(
+      IconData type, Color color, String url, bool isMail) {
     return Padding(
       padding: const EdgeInsets.all(2),
       child: AnimatedButton(
@@ -161,11 +158,12 @@ class CustomDrawer extends StatelessWidget {
 
   Padding buildPartTitle(bool isGreen, String text, double topMargin) {
     return Padding(
-      padding: EdgeInsets.only(top :topMargin),
+      padding: EdgeInsets.only(top: topMargin),
       child: Text(
         text,
         style: isGreen
-            ? TextStyleConstants.instance.partTitleStyle.copyWith(color: Colors.green.shade200)
+            ? TextStyleConstants.instance.partTitleStyle
+                .copyWith(color: Colors.green.shade200)
             : TextStyleConstants.instance.partTitleStyle,
         textAlign: TextAlign.center,
       ),
@@ -177,7 +175,8 @@ class CustomDrawer extends StatelessWidget {
       padding: EdgeInsets.only(top: topMargin),
       child: Text(
         text,
-        style: TextStyleConstants.instance.appInfoTitleStyle.copyWith(color: color),
+        style: TextStyleConstants.instance.appInfoTitleStyle
+            .copyWith(color: color),
         textAlign: TextAlign.center,
       ),
     );
@@ -210,7 +209,6 @@ class CustomDrawer extends StatelessWidget {
   final Uri mailToError = Uri(
       scheme: 'mailto',
       path: 'yahyacanozdemir@gmail.com',
-      queryParameters: {
-        'subject': 'CBG\bApp\bHata\bÖneri\bBildirme'
-      });
+      queryParameters: {'subject': 'CBG\bApp\bHata\bÖneri\bBildirme'});
+
 }
