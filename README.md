@@ -1,2 +1,2 @@
-# Recipes_Can_Bogazdan_Gelir
+# Recipes Can Bogazdan Gelir Flutter App for Internship
 Dünyanın her yerinden yemek tarifleri...
