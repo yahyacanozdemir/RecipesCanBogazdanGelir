@@ -20,4 +20,4 @@ Uygulama ismi, ara yüz tasarımı, kullanıcı deneyimi ve sunum görsellerinin
 
 
 ### Dikkat
-Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de çalışmak, katmanlı mimari ve state yönetimi üzerine alıştırma yapmak ve mobil programlama alanında kendimi geliştirmek için tarafımca kodlanmış bir haftalık projedir. 
+    Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de çalışmak, katmanlı mimari ve state yönetimi üzerine alıştırma yapmak ve mobil programlama alanında kendimi geliştirmek için tarafımca kodlanmış bir haftalık projedir. 
