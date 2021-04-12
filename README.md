@@ -3,7 +3,7 @@
 ![entery](https://user-images.githubusercontent.com/43846778/114446354-d2191600-9bd9-11eb-920e-4dcd3c539135.jpg)
 
 
-## İndirme ve Test Bağlantısı(Android) -> https://drive.google.com/file/d/1ZLMqUnokUOqx7w6JEkz0b3IlUAngJ8hZ/view?usp=sharing
+    İndirme ve Test Bağlantısı(Android) -> https://drive.google.com/file/d/1ZLMqUnokUOqx7w6JEkz0b3IlUAngJ8hZ/view?usp=sharing
 
 
 
