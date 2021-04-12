@@ -15,9 +15,9 @@
 ![3](https://user-images.githubusercontent.com/43846778/114446371-d5140680-9bd9-11eb-9721-1865ae4f605d.jpg)
 
 
-### Uygulama Tasarımı ve Sunum Görselleri Hakkında
+     Uygulama Tasarımı ve Sunum Görselleri Hakkında
 Uygulama ismi, ara yüz tasarımı, kullanıcı deneyimi ve sunum görsellerinin tamamı tarafımca oluşturulmuştur. 
 
 
-### Dikkat
-    Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de çalışmak, katmanlı mimari ve state yönetimi üzerine alıştırma yapmak ve mobil programlama alanında kendimi geliştirmek için tarafımca kodlanmış bir haftalık projedir. 
+     Dikkat
+Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de çalışmak, katmanlı mimari ve state yönetimi üzerine alıştırma yapmak ve mobil programlama alanında kendimi geliştirmek için tarafımca kodlanmış bir haftalık projedir. 
