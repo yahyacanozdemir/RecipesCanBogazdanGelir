@@ -13,9 +13,9 @@ Yeni sürümler için github ve linkedin hesaplarımı takip edebilirsiniz..
 
 
 ## Geliştirme Süreci Bilgileri 
-Geliştirme ortamı : Flutter & Dart & VS Code
-Design Pattern : MVVM Architecture
-State Management : Provider Package
+* Geliştirme ortamı : Flutter & Dart & VS Code
+* Design Pattern : MVVM Architecture
+* State Management : Provider Package
 
 
 
