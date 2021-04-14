@@ -5,6 +5,19 @@
     İndirme ve Test Bağlantısı(Android) ->
 https://drive.google.com/file/d/1aTdLSPRiaiii6Aw9ugnSJr7AuRVkvv1F/view?usp=sharing
 
+## Versiyon Bilgilendirme 
+Recipes: Can Bogazdan Gelir 1.0.1 Çıktı!
+Uygulamanın çalışabilmesi için Android 4.1 & OS 9.0 veya daha üst sürüme sahip bir  akıllı telefon gerekmektedir.
+Yeni sürümler için github ve linkedin hesaplarımı takip edebilirsiniz..
+(IOS sürüm için macOS gerektiğinden şu an için yalnızca android versiyon bulunmaktadır)
+
+
+## Geliştirme Süreci Bilgileri 
+Geliştirme ortamı : Flutter & Dart & VS Code
+Design Pattern : MVVM Architecture
+State Management : Provider Package
+
+
 
 
 ## Ekran Görüntüleri
@@ -22,5 +35,5 @@ Uygulama ismi, ara yüz tasarımı, kullanıcı deneyimi ve sunum görsellerinin
        -
 
 ### Dikkat
-Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de çalışmak, katmanlı mimari ve state yönetimi üzerine alıştırma yapmak ve mobil programlama alanında kendimi geliştirmek için tümüyle tarafımca kodlanmış bir haftalık projedir. 
+Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de katmanlı mimari ve state yönetimi üzerine çalışmak, mobil programlama alanında kendimi geliştirmek için tümüyle tarafımca kodlanmış bir haftalık projedir. 
 
