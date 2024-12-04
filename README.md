@@ -9,17 +9,13 @@
 
 ## Versiyon Bilgilendirme 
 Recipes: Can Bogazdan Gelir 1.0.1 Çıktı!
-Uygulamanın çalışabilmesi için Android 4.1 & OS 9.0 veya daha üst sürüme sahip bir  akıllı telefon gerekmektedir.
-Yeni sürümler için github ve linkedin hesaplarımı takip edebilirsiniz..
-(IOS sürüm için macOS gerektiğinden şu an için yalnızca android versiyon bulunmaktadır)
+Uygulamanın çalışabilmesi için Android 4.1 & iOS 9.0 veya daha üst sürüme sahip bir  akıllı telefon gerekmektedir.
 
 
 ## Geliştirme Süreci Bilgileri 
 * Geliştirme ortamı : [Flutter & Dart & VS Code](https://flutter.dev/)
-* Design Pattern : [MVVM Architecture](https://medium.com/flutterdevs/design-patterns-in-flutter-part-3-mvvm-a310de4eb83)
-* State Management : [Provider Package](https://pub.dev/packages/provider)
-
-
+* Arthitecture : [MVVM](https://medium.com/flutterdevs/design-patterns-in-flutter-part-3-mvvm-a310de4eb83)
+* State Management : [Provider](https://pub.dev/packages/provider)
 
 
 ## Ekran Görüntüleri
@@ -32,11 +28,9 @@ Yeni sürümler için github ve linkedin hesaplarımı takip edebilirsiniz..
 ##
 
 ### Uygulama Tasarımı ve Sunum Görselleri Hakkında
-Uygulama ismi, ara yüz tasarımı, kullanıcı deneyimi ve sunum görsellerinin tamamı tarafımca oluşturulmuştur. 
+Uygulama ismi, ara yüz tasarımı ve kullanıcı deneyimi tamamı tarafımca oluşturulmuştur. 
 
 ##
 
 ### Dikkat
-Bu uygulama  INVIO Genç Yetenek Staj Programı başvurusu kapsamında flutter back-end'de katmanlı mimari ve state yönetimi üzerine çalışmak, mobil programlama alanında kendimi geliştirmek için tümüyle tarafımca kodlanmış bir haftalık projedir. 
-
-
+Bu app flutter üzerinde dart dili ile katmanlı mimari ve state yönetimi üzerine çalışmak amacıyla tümüyle tarafımca kodlanmış bir haftalık projedir. 
